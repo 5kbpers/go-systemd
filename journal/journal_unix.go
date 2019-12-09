@@ -20,6 +20,8 @@
 // sd-journal a C API.
 //
 // http://www.freedesktop.org/software/systemd/man/systemd-journald.service.html
+// +build darwin dragonfly freebsd linux netbsd openbsd
+
 package journal
 
 import (
